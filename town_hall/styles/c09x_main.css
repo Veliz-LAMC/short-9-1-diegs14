@@ -159,7 +159,12 @@ aside h3 {
 aside img {
 	padding-bottom: 1em;
 }
-
+#left {
+	order: 1;
+}
+#right {
+	order: 3;
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
@@ -199,7 +204,6 @@ footer p {
 		width: 95%;
 	}
 	aside {
-	    order: 2;
 		padding-right: 2.5%;
 		width: 95%;
 	}
